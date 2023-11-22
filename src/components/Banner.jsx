@@ -2,10 +2,10 @@ import React from "react";
 
 const Banner = () => {
     return (
-        <div>
-            <header>"Orbit Report"</header>
+        <header>
+            <h1>"Orbit Report"</h1>
             <p>Click on the buttons to see the satellites in the orbit type</p>
-        </div>
+        </header>
     );  
 };
 
