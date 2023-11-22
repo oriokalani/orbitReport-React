@@ -5,7 +5,7 @@ import satData from "./satData";
 export const Buttons = ({ filterByType, setSat, displaySats }) => {
   return (
     <div>
-      {displaySats.Sats.map((sat, id) => 
+      {displaySats.map((sat, id) => 
         <button onClick = {() => filterByType(sat)} key = {id} >
           {sat} Orbit
         </button>
